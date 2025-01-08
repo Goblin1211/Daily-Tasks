@@ -1,0 +1,58 @@
+# 1)Using input() function take one number from the user and using ternary operators check whether the number is even or odd:
+
+# Input from the user
+number = int(input("Enter a number: "))
+
+# Checks if the number is even or odd using a ternary operator
+result = "Even" if number % 2 == 0 else "Odd"
+
+# Prints the result
+print(f"The number is {result}.")
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 2)Using input function take two number and then swap the number:
+
+# Take two numbers as input from the user
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+
+# Display numbers before swapping
+print(f"Before swapping: number1 = {number1}, number2 = {num2}")
+
+# Swap the numbers
+number1, number2 = number2, number1
+
+# Display numbers after swapping
+print(f"After swapping: number1 = {number1}, number2 = {number2}")
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 3)Write a Program to Convert Kilometers to Miles:
+
+# Conversion factor
+km_to_miles_factor = 0.621371
+
+# Take input from the user
+kilometers = float(input("Enter the distance in kilometers: "))
+
+# Convert kilometers to miles
+miles = kilometers * km_to_miles_factor
+
+# Display the result
+print(f"{kilometers} kilometers is equal to {miles} miles.")
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 4)Find the Simple Interest on Rs. 200 for 5 years at 5% per year:
+
+# Inputs
+P = 200  # Principal amount in Rs.
+R = 5    # Rate of interest in %
+T = 5    # Time in years
+
+# Simple Interest formula
+SI = (P * R * T) / 100
+
+# Display the result
+print(f"The Simple Interest is Rs. {SI}.")
